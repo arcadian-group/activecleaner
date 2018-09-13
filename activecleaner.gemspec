@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = ">= 2.2.0"
 
-  s.add_runtime_dependency("activemodel", ">= 4.2", "< 5.2.1")
+  s.add_runtime_dependency("activemodel", ">= 4.2", "<= 5.2.1")
   s.add_runtime_dependency("activesupport", ">= 4.2", "< 5.2")
 
   s.add_development_dependency("rspec", "~> 3.4")
